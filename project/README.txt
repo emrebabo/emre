@@ -1,45 +1,53 @@
-OpsAlign Website Delivery Package
+OpsAlign 5-Page Website Delivery
 
-Project Overview
-- One-page premium business website for a compliance-focused operations and customer support partner.
-- Designed for RegTech, FinTech, digital banking, and identity verification buyers.
-- Built with vanilla HTML, CSS, and JavaScript for fast loading, easy editing, and simple deployment.
+Pages Included
+- index.html (Home)
+- services.html
+- about.html
+- contact.html
+- privacy-policy.html
 
-What Is Included
-- Sticky scroll-aware navigation with mobile menu.
-- Conversion-focused hero section with dual call-to-actions.
-- Industry targeting, services, trust points, compliance section, and process flow.
-- About and contact area with lightweight lead-capture form behavior.
-- Smooth scrolling, reveal-on-scroll animations, accessible skip link, semantic structure.
+What Is Functional Now
+- Fully linked 5-page website with consistent top navigation and footer navigation.
+- Mobile menu works on all pages.
+- Active page highlight in navigation.
+- Scroll reveal animations and sticky header behavior.
+- Direct email buttons using mailto links.
+- Contact form on contact page opens user's mail app with pre-filled subject/body.
 
-Design System Snapshot
-- Color: deep compliance blue, cool neutrals, high-contrast call-to-action palette.
-- Typography: responsive clamp-based sizing for mobile-to-desktop readability.
-- Spacing: fluid spacing scale for consistent rhythm across breakpoints.
-- Components: cards, CTA buttons, process chips, trust tiles, form inputs.
+How to Run Locally (Very Easy)
+1) Download or clone this repository.
+2) Open terminal in the `project` folder.
+3) Run:
+   python3 -m http.server 4173
+4) Open browser:
+   http://localhost:4173
 
-Client-Side Pitch Notes
-Short Description
-"A fast, trust-first operations website built to attract compliance-driven B2B clients and convert interest into partnership calls."
+How to Test Quickly Yourself
+1) Open each page manually:
+   - /index.html
+   - /services.html
+   - /about.html
+   - /contact.html
+   - /privacy-policy.html
+2) Resize browser to mobile width and test menu button.
+3) On Contact page:
+   - Click "Open Mail App" button.
+   - Fill form and click "Send via Mail App".
+   - Your email app should open with a drafted message.
 
-Key Selling Points
-- Premium visual tone aligned with regulated industries.
-- Conversion-optimized content order (problem -> proof -> service -> action).
-- Mobile-first responsive layout with clear CTA hierarchy.
-- Easy for non-technical teams to update copy and sections.
+How to Publish on GitHub Pages
+1) Push repository to GitHub.
+2) Go to GitHub repo -> Settings -> Pages.
+3) Under "Build and deployment", choose:
+   - Source: Deploy from a branch
+   - Branch: main (or your branch)
+   - Folder: /project (if available), otherwise move project files to repo root.
+4) Save and wait 1-2 minutes.
+5) Open your GitHub Pages URL and test all pages.
 
-Technical Highlights
-- Semantic HTML structure with meta tags and Organization schema.
-- No framework dependencies; low overhead and low maintenance.
-- Native lazy-loading image strategy and reduced-motion support.
-- IntersectionObserver-based animation triggers for minimal runtime cost.
-
-Performance Notes
-- Lightweight static architecture suitable for high Lighthouse scores.
-- Minimal JavaScript footprint and render-safe CSS loading.
-- Optimized DOM complexity and reusable utility component patterns.
-
-Deployment
-1. Upload the entire project folder to any static host (Netlify, Vercel, cPanel, S3, GitHub Pages).
-2. Ensure index.html is at the root of the deployed directory.
-3. Replace placeholder contact form action with your backend endpoint if needed.
+Client Pitch Summary
+- Premium, compliance-focused visual style.
+- Fast static architecture (HTML/CSS/JS only).
+- Conversion-ready CTAs with direct mail app interaction.
+- Easy to edit and deploy without backend complexity.
