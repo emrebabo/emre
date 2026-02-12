@@ -1,43 +1,41 @@
-ASM Call Center Website (5 Pages)
+ASM Services Enterprise Website
 
-Pages
-- index.html (Home)
-- services.html
-- about.html
-- contact.html
-- privacy-policy.html
+Implemented Structure
+- Core pages:
+  - /index.html
+  - /services.html
+  - /security-compliance.html
+  - /about.html
+  - /contact.html
+  - /privacy-policy.html
+  - /impressum.html
+- Careers (German):
+  - /karriere/
+  - /karriere/stellenangebote/
+  - /karriere/identity-verification-specialist/
+- Careers (English):
+  - /careers/
+  - /careers/open-positions/
+  - /careers/identity-verification-specialist/
+- Careers (Bosnian):
+  - /karijera/
+  - /karijera/otvorene-pozicije/
+  - /karijera/specijalista-za-provjeru-identiteta/
 
-What was changed in this version
-- Company branding updated to ASM Call Center.
-- Removed contact mail form entirely (no form fields, no mailto form submit logic).
-- Visual style upgraded to look richer with animated icon cards and glowing trust highlights.
-- Content structure aligned with the provided reference layout: industries, services, trust, compliance, process, about, contact.
+What was changed
+- Enterprise-style redesign with deep navy palette and technical hero visual.
+- No stock call-center imagery; abstract system/process visual used in hero.
+- Footer rebuilt exactly in requested 3-column structure + firm seat + © 2026 line.
+- About, Security, and Privacy contain multilingual DE/EN/BA content blocks.
+- Career URL structures implemented in DE/EN/BA.
+- Contact form remains removed (as requested).
 
-How to run locally
-1) Open terminal in the `project` folder.
-2) Run:
-   python3 -m http.server 4173
-3) Open browser:
-   http://localhost:4173
+Run locally
+1) cd project
+2) python3 -m http.server 4173
+3) open http://localhost:4173/index.html
 
-How to test quickly
-1) Visit all pages:
-   /index.html
-   /services.html
-   /about.html
-   /contact.html
-   /privacy-policy.html
-2) Check mobile menu by resizing browser below tablet width.
-3) Verify no form exists on Contact page.
-4) Check icon animation and scroll-reveal effects.
-
-Deploy on GitHub Pages
-1) Push repository to GitHub.
-2) Repo Settings -> Pages.
-3) Deploy from branch (main) and choose the correct folder.
-4) If your Pages setup cannot use `/project`, move page files to repo root and redeploy.
-
-Client-ready pitch (short)
-- Premium static website for ASM Call Center with modern UX and richer visual trust signals.
-- Fast, easy-to-host architecture (HTML/CSS/JS only).
-- Designed for compliance-driven B2B buyers and conversion-focused navigation.
+Quick test list
+- Open all core pages and all career URLs above.
+- Test mobile menu below 980px width.
+- Confirm hero/section reveal animations and active navigation state.
