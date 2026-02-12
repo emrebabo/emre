@@ -22,13 +22,14 @@ Implemented Structure
   - /karijera/otvorene-pozicije/
   - /karijera/specijalista-za-provjeru-identiteta/
 
-What was changed
-- Enterprise-style redesign with deep navy palette and technical hero visual.
-- No stock call-center imagery; abstract system/process visual used in hero.
-- Footer rebuilt exactly in requested 3-column structure + firm seat + © 2026 line.
-- About, Security, and Privacy contain multilingual DE/EN/BA content blocks.
-- Career URL structures implemented in DE/EN/BA.
-- Contact form remains removed (as requested).
+Latest Upgrade
+- Added richer premium visuals with animated icon badges and refined enterprise styling.
+- Reworked logo asset to better match ASM brand appearance.
+- Added global language switch control (🌐 DE / EN / BA) in header.
+- Added fully functional contact form that sends collected submissions to:
+  info@asmservices.ba
+  (via FormSubmit endpoint)
+- Preserved responsive behavior for desktop, tablet, and mobile.
 
 Run locally
 1) cd project
@@ -38,4 +39,5 @@ Run locally
 Quick test list
 - Open all core pages and all career URLs above.
 - Test mobile menu below 980px width.
-- Confirm hero/section reveal animations and active navigation state.
+- Verify language switch appears in header.
+- Test contact form submit on /contact.html.

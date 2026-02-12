@@ -23,6 +23,27 @@ document.querySelectorAll('.site-nav a').forEach((a) => {
   }
 });
 
+const navWrap = document.querySelector('.nav-wrap');
+if (navWrap && !document.querySelector('.lang-switch')) {
+  const switcher = document.createElement('div');
+  switcher.className = 'lang-switch';
+  switcher.setAttribute('aria-label', 'Language switch');
+  switcher.innerHTML = `
+    <span class="globe" aria-hidden="true">🌐</span>
+    <a href="/index.html?lang=de">DE</a>
+    <a href="/index.html?lang=en">EN</a>
+    <a href="/index.html?lang=bs">BA</a>
+  `;
+  navWrap.insertBefore(switcher, navWrap.querySelector('.site-nav'));
+
+  const lang = new URLSearchParams(window.location.search).get('lang');
+  if (lang) {
+    switcher.querySelectorAll('a').forEach((el) => {
+      if (el.getAttribute('href').endsWith(`lang=${lang}`)) el.classList.add('active');
+    });
+  }
+}
+
 const blocks = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window) {
   const io = new IntersectionObserver((entries) => {
@@ -36,4 +57,14 @@ if ('IntersectionObserver' in window) {
   blocks.forEach((b) => io.observe(b));
 } else {
   blocks.forEach((b) => b.classList.add('visible'));
+}
+
+const form = document.querySelector('#contact-form');
+if (form) {
+  const note = document.querySelector('.form-note');
+  form.addEventListener('submit', () => {
+    if (note) {
+      note.textContent = 'Sending your message securely...';
+    }
+  });
 }

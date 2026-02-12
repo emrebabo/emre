@@ -1,7 +1,14 @@
-<svg width="220" height="80" viewBox="0 0 220 80" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ASM Services logo">
-  <path d="M18 66L38 14L58 66H45L41 55H35L31 66H18Z" fill="#2C5DAA"/>
-  <path d="M77 66V14H121V27H90V34H116V46H90V53H121V66H77Z" fill="#2C5DAA"/>
-  <path d="M132 66V14H148L164 40L180 14H196V66H183V36L169 59H158L145 36V66H132Z" fill="#2C5DAA"/>
-  <rect x="18" y="71" width="178" height="3" fill="#2C5DAA"/>
-  <text x="18" y="79" fill="#2C5DAA" font-family="Inter, Arial" font-size="8" letter-spacing="4">SERVICES</text>
+<svg width="640" height="220" viewBox="0 0 640 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ASM Services">
+  <rect width="640" height="220" fill="white"/>
+  <g fill="#2D5DAA">
+    <path d="M82 176L122 82L162 176H136L129 158H114L107 176H82Z"/>
+    <path d="M198 176V82H300V103H224V121H287V141H224V155H300V176H198Z"/>
+    <path d="M322 176V82H350L384 137L418 82H446V176H420V123L392 169H376L348 123V176H322Z"/>
+    <rect x="80" y="188" width="366" height="5"/>
+    <text x="80" y="212" font-family="Inter, Arial, sans-serif" font-size="26" letter-spacing="12">SERVICES</text>
+  </g>
+  <g fill="#2D5DAA" transform="translate(22,-2)">
+    <path d="M93 49C82 35 81 21 90 9C82 17 78 29 80 39C74 33 71 26 72 17C66 27 66 39 71 49C66 47 62 42 60 36C58 46 63 55 74 61L110 31L93 49Z"/>
+    <path d="M116 76L145 12L187 102L160 75L145 97L134 87L116 76Z"/>
+  </g>
 </svg>
