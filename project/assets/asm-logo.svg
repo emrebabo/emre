@@ -1,0 +1,7 @@
+<svg width="220" height="80" viewBox="0 0 220 80" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ASM Services logo">
+  <path d="M18 66L38 14L58 66H45L41 55H35L31 66H18Z" fill="#2C5DAA"/>
+  <path d="M77 66V14H121V27H90V34H116V46H90V53H121V66H77Z" fill="#2C5DAA"/>
+  <path d="M132 66V14H148L164 40L180 14H196V66H183V36L169 59H158L145 36V66H132Z" fill="#2C5DAA"/>
+  <rect x="18" y="71" width="178" height="3" fill="#2C5DAA"/>
+  <text x="18" y="79" fill="#2C5DAA" font-family="Inter, Arial" font-size="8" letter-spacing="4">SERVICES</text>
+</svg>

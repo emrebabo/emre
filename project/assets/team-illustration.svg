@@ -1,0 +1,37 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpsAlign Team Illustration</title>
+  <desc id="desc">Stylized operations team working with analytics and support dashboards.</desc>
+  <rect width="1280" height="720" rx="28" fill="#EEF4FB"/>
+  <rect x="55" y="68" width="586" height="584" rx="24" fill="#DDE9F8"/>
+  <rect x="76" y="101" width="544" height="183" rx="18" fill="#F8FBFF"/>
+  <rect x="96" y="124" width="265" height="17" rx="8.5" fill="#8AB5E6"/>
+  <rect x="96" y="160" width="436" height="14" rx="7" fill="#C0D6EF"/>
+  <rect x="96" y="188" width="382" height="14" rx="7" fill="#C0D6EF"/>
+  <rect x="96" y="223" width="183" height="36" rx="12" fill="#1766C2"/>
+  <rect x="300" y="223" width="194" height="36" rx="12" fill="#E5EFFB"/>
+  <rect x="76" y="312" width="261" height="320" rx="18" fill="#F8FBFF"/>
+  <rect x="96" y="342" width="145" height="15" rx="7.5" fill="#8AB5E6"/>
+  <rect x="96" y="376" width="202" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="96" y="403" width="214" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="96" y="430" width="177" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="96" y="457" width="227" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="359" y="312" width="261" height="320" rx="18" fill="#F8FBFF"/>
+  <rect x="379" y="342" width="170" height="15" rx="7.5" fill="#8AB5E6"/>
+  <rect x="379" y="376" width="188" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="379" y="403" width="214" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="379" y="430" width="177" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="379" y="457" width="227" height="12" rx="6" fill="#C0D6EF"/>
+  <rect x="680" y="68" width="545" height="584" rx="24" fill="#1766C2"/>
+  <circle cx="803" cy="254" r="71" fill="#F8FBFF"/>
+  <circle cx="803" cy="241" r="28" fill="#9BBFE7"/>
+  <path d="M746 308C746 277.072 771.072 252 802 252H804C834.928 252 860 277.072 860 308V330H746V308Z" fill="#9BBFE7"/>
+  <circle cx="1025" cy="254" r="71" fill="#F8FBFF"/>
+  <circle cx="1025" cy="241" r="28" fill="#9BBFE7"/>
+  <path d="M968 308C968 277.072 993.072 252 1024 252H1026C1056.93 252 1082 277.072 1082 308V330H968V308Z" fill="#9BBFE7"/>
+  <rect x="730" y="392" width="444" height="193" rx="18" fill="#0E4B90"/>
+  <rect x="760" y="428" width="143" height="17" rx="8.5" fill="#A6C8EE"/>
+  <rect x="760" y="464" width="382" height="13" rx="6.5" fill="#5B91CC"/>
+  <rect x="760" y="492" width="338" height="13" rx="6.5" fill="#5B91CC"/>
+  <rect x="760" y="520" width="282" height="13" rx="6.5" fill="#5B91CC"/>
+  <rect x="760" y="548" width="204" height="13" rx="6.5" fill="#5B91CC"/>
+</svg>

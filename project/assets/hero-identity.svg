@@ -1,0 +1,21 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Identity verification process diagram">
+  <rect width="900" height="620" rx="24" fill="#0F172A"/>
+  <path d="M70 110H830" stroke="#334155" stroke-width="1"/>
+  <path d="M70 210H830" stroke="#334155" stroke-width="1"/>
+  <path d="M70 310H830" stroke="#334155" stroke-width="1"/>
+  <path d="M70 410H830" stroke="#334155" stroke-width="1"/>
+  <path d="M70 510H830" stroke="#334155" stroke-width="1"/>
+  <rect x="90" y="80" width="220" height="110" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="110" y="120" fill="#93C5FD" font-family="Inter, Arial" font-size="16">Input Layer</text>
+  <text x="110" y="145" fill="#CBD5E1" font-family="Inter, Arial" font-size="13">Document + VideoIdent</text>
+  <rect x="340" y="220" width="220" height="110" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="360" y="260" fill="#93C5FD" font-family="Inter, Arial" font-size="16">Case Handling</text>
+  <text x="360" y="285" fill="#CBD5E1" font-family="Inter, Arial" font-size="13">SLA + Review Layers</text>
+  <rect x="590" y="360" width="220" height="110" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="610" y="400" fill="#93C5FD" font-family="Inter, Arial" font-size="16">Governance Output</text>
+  <text x="610" y="425" fill="#CBD5E1" font-family="Inter, Arial" font-size="13">Audit-ready Documentation</text>
+  <path d="M310 136L340 260" stroke="#2563EB" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M560 276L590 400" stroke="#2563EB" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="450" cy="520" r="65" fill="#1D4ED8" fill-opacity="0.15"/>
+  <circle cx="450" cy="520" r="38" fill="#1D4ED8" fill-opacity="0.25"/>
+</svg>
