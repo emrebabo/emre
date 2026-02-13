@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 110" role="img" aria-label="ASM Services">
+  <rect width="360" height="110" fill="none"/>
+  <g fill="#2b56a5" font-family="Inter,Arial,sans-serif" font-weight="700">
+    <text x="8" y="64" font-size="64">ASM</text>
+    <text x="10" y="100" font-size="32" letter-spacing="8">SERVICES</text>
+  </g>
+</svg>
